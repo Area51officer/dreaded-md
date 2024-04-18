@@ -1,5 +1,5 @@
 {
-  "name": "DREADED BOT",
+  "name": "SAM BOT",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -36,7 +36,7 @@
  "MENULINK":
     {
       "description":"Put an image link that will be used in picture menu.",
-      "value": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+      "value": "https://i.ibb.co/whc0ynC/Guru.jpg",
       "required":false
     },
 
@@ -47,6 +47,7 @@
 
  "EVENTS": {
       "description": "Put TRUE if you want bot to send welcome and goodbye messages",
+      "value": "TRUE",
       "required": false
     },
 
@@ -108,16 +109,19 @@
 
 "MODE": {
       "description": "Type PRIVATE if you don't want other people to use the bot or PUBLIC if you want everyone to access.",
+  "value": "PUBLIC",
       "required": false
     },
 
 "STICKER_AUTHOR": {
       "description": "Put your sticker author data",
+  "value": "+16106999265",
       "required": false
     },
 
 "STICKER_PACKNAME": {
       "description": "Put your sticker packname data",
+  "value": "SAM-BOT",
       "required": false
     },
 
@@ -151,23 +155,27 @@
     },
 "SESSION": {
       "description": "Paste the session id that you received in whatsapp after linking the bot. It's used for authentication.",
+  "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUxHSm41NnVlOS9TYWVhZWdOc1RlS2VaclJBc29UUngwdWNoczZzMXhFcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNXdackF0RjBJQzVrRVZIek1vWThWMHVrN1hvRG9SODBocWdHMnI1bVZYST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxUDZEd1BTc0dPaG5MNXo3Vnk4cHRFdkVCYmwyZS9GUDQ0aVRFbTl2Q2s4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwalQzMlYrMEVMS3JIQlhyN21KeFcvTHpKQlBodkFpZHhNeUc0TXZXVWxjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlGNFVVOE84bCtnaGgwZDIwNXlkbTc0Q2tESGg4Q1N0RTkzcS94dFpUWEE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlJIT3BKVU5sQlQ1RHpsY3ovN0RZeHJPYU05STNqSWMzZThJVStFekI4M0U9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYU5iTmJtUUlSUXNsajJtNjB1SVd1UHpHTFVia1gyZkhpYmJ1MTdSSGtrdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK09ac0w3dUZPYi92NmFsamNYekNLUUhwNkhSd1owcVVwNTcyQWFGU3Z3cz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InRWNW0rZEI2ZGdYOWVaa2ZvSmVyZXBrTnd4NEZRTFFqc05GNC8wWittN0Z5RCsvUXFLS205MElBNCthVnQ1R1BQMFUvOFlFRnhPNDFCcldPTzhzSkFnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzIsImFkdlNlY3JldEtleSI6IlBYYjJYbkNuaTBVVlAya0Y2UVZkdm45OHBzUUJkajdBOUdxeFlPeHo1K1k9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMTkwOTY4NjgzOTNAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiOUI5NDAyQkVBQkQ3QzY2ODRFOEI4NDA0NUNFMDFENzAifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxMzM2Mjc4OX0seyJrZXkiOnsicmVtb3RlSmlkIjoiMTkwOTY4NjgzOTNAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiMTM1MDgxOEEyNjNBQjZEODFBMkYzREJBRTBCMEQ1MkMifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxMzM2Mjc4OX1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoickNwbDJycFFTX0NEZnk2N29MTFZTdyIsInBob25lSWQiOiJlYjNhZDY0Zi1mMTZhLTRkY2YtYjJjNy1mZjlhMGJjNTczNzAiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT3FxK1BRcGtEbGZ1OEFYRkxIL0I1dXhuOG9NPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9pQzNHRGJRRUp4T0E3dTU1MWxnNVBpU1M4az0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJBWkZTQUpLRSIsIm1lIjp7ImlkIjoiMTkwOTY4NjgzOTM6MTBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiU0FNLUJPVCAyMDI0IEVESVRJT04ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01pczlwOEJFTml1LzdBR0dBZ2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkJYTkwxWWtpM0ZJbnFzN1VBTDdxdzhDLy8vejFCTWc2OG4rcWdobWRCeFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkpxS1pIOG15aUt1S1BxNFJqZkJsNzdZSlI5OVdyWUE5akFYU3FQYmhTeXdYZHBLazNMN0tvbnRITFRUa2dYaHJ0akNJL1NkTERMVzJtQ2F5K2ZObEJBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJHZVhITkliQkh3MUM4dk9oVDU3bDFIQmN2R2o2VGY2MlFKZmFsaUFoYldCWkkrUGpFTmEwaEVROUI4UUY5NDhuMmY1Ung3M0RHLzdZWERhU0EzemtDUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjE5MDk2ODY4MzkzOjEwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlFWelM5V0pJdHhTSjZyTzFBQys2c1BBdi8vODlRVElPdkovcW9JWm5RY1YifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTMzNjI3ODcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBQTVtIn0=",
       "required": true
     },
 
 "COUNTRY_CODE": {
       "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if commanded",
+  "value": "92",
       "required": true
     },
 
 
 "BOTNAME": {
       "description": "Enter name for your bot.",
+  "value": "SAM-BOT",
       "required": false
     },
 
 
 "APP_NAME": {
       "description": "Enter the app name you entered above.",
+  "value": "samkirakun",
       "required": false
     },
 
@@ -175,6 +183,7 @@
 
 "HEROKU_API": {
       "description": "Enter your heroku API or leave blank.",
+  "value": "5a416f4f-4ac6-4d3f-9344-01196c4dd99a",
       "required": false
     }
 
