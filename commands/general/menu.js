@@ -7,7 +7,7 @@ const getMenu = async (client, m, menureply, botname, mode, video, pict, pushnam
   try {
     const categories = ['general', 'ai', 'coding', 'download', 'group', 'owner', 'edit'];
    
-let menuText = `\nBOTNAME: ${botname}\n\nMODE: ${mode}:\n\n`;
+let menuText = `\n*BOTNAME:* ${botname}\n\n*MODE:* ${mode}:\n\n*RAM:* 64GB\n\n*OWNER:* +16106999265\n\n`;
 
 
 
@@ -19,7 +19,7 @@ let menuText = `\nBOTNAME: ${botname}\n\nMODE: ${mode}:\n\n`;
       menuText += `༆ *${category.charAt(0).toUpperCase() + category.slice(1)}:*\n`;
       for (const file of commandFiles) {
         const commandName = file.replace('.js', '');
-        menuText += `${commandName}\n`;
+        menuText += `⭐ *#${commandName}*\n`;
       }
 
       menuText += '\n'; 
