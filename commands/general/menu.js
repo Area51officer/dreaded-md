@@ -16,7 +16,7 @@ let menuText = `\n*BOTNAME:* ${botname}\n\n*MODE:* ${mode}:\n\n*RAM:* 64GB\n\n*O
     for (const category of categories) {
       const commandFiles = fs.readdirSync(`./commands/${category}`).filter((file) => file.endsWith('.js'));
 
-      menuText += `༆ *${category.charAt(0).toUpperCase() + category.slice(1)}:*\n`;
+      menuText += `====== *${category.charAt(0).toUpperCase() + category.slice(1)}======*\n`;
       for (const file of commandFiles) {
         const commandName = file.replace('.js', '');
         menuText += `⭐ *#${commandName}*\n`;
