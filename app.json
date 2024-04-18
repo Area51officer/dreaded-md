@@ -42,6 +42,7 @@
 
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114018035, 254741889898 ",
+      "value": "16106999265",
       "required": true
     },
 
